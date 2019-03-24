@@ -1,0 +1,11 @@
+2019/03/24 20:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contacthtml".' in C:\xampp\htdocs\yii1\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\yii1\framework\web\CController.php(270): CController->missingAction('contacthtml')
+#1 C:\xampp\htdocs\yii1\framework\web\CWebApplication.php(282): CController->run('contacthtml')
+#2 C:\xampp\htdocs\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contacthtm...')
+#3 C:\xampp\htdocs\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii1\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii1/facilito/site/contacthtml
+HTTP_REFERER=http://localhost/yii1/facilito/site/login
+---
